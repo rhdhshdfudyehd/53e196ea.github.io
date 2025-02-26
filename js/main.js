@@ -82,4 +82,6 @@ $('.button-group > button').on('click', function(event) {
 	$(this).addClass('active');
 	event.preventDefault();
 });
+
+$('._tg_url').attr('href', 'https://t.me/robin_kent');
 })(jQuery);
